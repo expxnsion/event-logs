@@ -10,3 +10,4 @@ foreach ($EventLog in $EventLogs) {
 }
 
 $Results | Export-Csv -Path ".\InstantParse.csv" 
+goto menu
